@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #059669;
+  --bg-color: #ecfdf5;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+.container-center {
+  max-width: 600px;
+  padding: 0 1rem;
+  margin: 2rem auto;
+}
+
+.link {
+  text-decoration: none;
+  border: 1px solid var(--primary-color);
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: inline;
+  padding: 0 10px;
+}
+
+.nav {
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 20px;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 1rem;
+  color: #fff;
+  font-weight: 700;
+}
+.nav-list {
+  list-style: none;
+  text-align: right;
+  padding: 0;
+  margin: 1rem;
+}
+
+.nav-item {
+  display: inline;
+}
+
+.nav-link {
+  padding: 5px 10px;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #eee;
+}
+
+.active {
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+}
+.hero-image {
+  max-width: 350px;
+}
+.hero-heading {
+  font-size: 2.2rem;
+}
+.hero-inverted {
+  color: var(--primary-color);
+}
+
+.section {
+  padding: 3rem 0;
+}
+.ow-section {
+  background-color: var(--bg-color);
+}
+
+.footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  background-color: var(--primary-color);
+  text-align: center;
+  border-top-right-radius: 20px;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.footer-link {
+  padding: 5px 10px;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #eee;
+}
+
+.copyright {
+  color: #ccc;
+}
+
+small a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.logo-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
