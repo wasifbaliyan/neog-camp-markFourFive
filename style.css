@@ -62,7 +62,9 @@ hr {
   justify-content: space-between;
 }
 .logo {
-  margin: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   color: #fff;
   font-weight: 700;
 }
@@ -70,7 +72,6 @@ hr {
   list-style: none;
   text-align: right;
   padding: 0;
-  margin: 1rem;
 }
 
 .nav-item {
@@ -82,6 +83,11 @@ hr {
   margin-right: 1rem;
   text-decoration: none;
   color: #eee;
+}
+@media (max-width: 450px) {
+  .nav-link {
+    margin-right: 0.1rem;
+  }
 }
 
 .active {
