@@ -146,3 +146,11 @@ small a {
   text-decoration: none;
   font-size: 1.2rem;
 }
+
+p {
+  letter-spacing: 1px;
+}
+
+.p-3 {
+  padding: 3rem 10px;
+}
